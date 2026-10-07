@@ -1,6 +1,5 @@
 # Proyecto de ejemplo para la clase de 2DAW
 ## Módulo de Desarrollo de interfaces web 
----
 Este proyecto consiste en la creación de un sitio web para una entidad educativa usando Express.js
 
 ### Tecnologías usadas

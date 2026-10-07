@@ -7,8 +7,57 @@
   <body>
     <%- include('partials/header') %>
     <main>
-      <h1><%= title %></h1>
-      <p>Esta es una página de prueba para el proyecto de clase.</p>
+      <section class="about">
+        <div class="about-intro">
+          <p class="about-kicker">Quiénes somos</p>
+          <h1><%= title %></h1>
+          <p class="about-lead">
+            Somos un centro educativo enfocado en el aprendizaje práctico.
+            Formamos a estudiantes de Desarrollo de Aplicaciones Web con
+            proyectos reales, diseño de interfaces y trabajo en equipo.
+          </p>
+        </div>
+
+        <div class="about-story">
+          <div class="about-story-text">
+            <h2>Aprender haciendo, desde el primer día</h2>
+            <p>
+              Este sitio forma parte de un proyecto de clase del módulo de
+              Desarrollo de Interfaces Web. La idea es construir una web clara,
+              usable y con una identidad visual coherente.
+            </p>
+            <p>
+              Combinamos teoría y práctica: maquetación, componentes
+              reutilizables y una navegación sencilla para que cualquier
+              persona encuentre lo que busca en pocos clics.
+            </p>
+          </div>
+          <div class="about-story-media" role="img" aria-label="Espacio de trabajo y aprendizaje"></div>
+        </div>
+
+        <div class="about-values">
+          <article class="about-card">
+            <h3>Formación</h3>
+            <p>Clases orientadas a proyectos, con HTML, CSS, JavaScript y Express.</p>
+          </article>
+          <article class="about-card">
+            <h3>Comunidad</h3>
+            <p>Un entorno colaborativo donde se comparte el proceso, no solo el resultado.</p>
+          </article>
+          <article class="about-card">
+            <h3>Práctica</h3>
+            <p>Cada página se diseña para verse bien, leerse fácil y funcionar en el navegador.</p>
+          </article>
+        </div>
+
+        <div class="about-cta">
+          <div>
+            <h2>¿Quieres saber más?</h2>
+            <p>Escríbenos y te contamos cómo trabajamos en el centro.</p>
+          </div>
+          <a class="nav-btn" href="/contacto">Ir a contacto</a>
+        </div>
+      </section>
     </main>
     <%- include('partials/footer') %>
   </body>
