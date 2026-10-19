@@ -1,21 +1,52 @@
-
+*{
+  outline:dashed 3px red;
+}
 body{
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  min-height: 100dvh;
 }
 
 section#hero {
   background-image: url('https://picsum.photos/1200/400?random=1'); background-size: cover; background-position: center; color: white; padding: 100px 0; text-align: center;
   h1 {
-    font-size: 4rem; font-weight: bold; margin-bottom: 5px;}
+    font-size: 5rem; font-weight: bold; margin-bottom: 5px;}
   p {
     font-size: 1.5rem; margin-bottom: 40px; padding: 0 20%;}
    .button {
       background-color: #007bff; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-top: 40px;}
 small{
-  font-size: 1.5rem; font-weight: bold;
+  font-size: 2.5rem; font-weight: bold;
 }
+a {
+  font-size: 1rem;
+}
+}
+.footer {
+  background-color: rgb(213, 213, 213);
+  display:flex;
+  color:black;
+  gap:10%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  margin-top:auto;
+  text-wrap:wrap;
+  .columns {
+    display:flex;
+    flex-direction: row;
+
+  }
+  .primeraColumna, .segundaColumna {
+    display:flex;
+    flex-direction: column;
+   padding:10px 50px;
+   gap:5px;
+  }
+  
+
 }
 

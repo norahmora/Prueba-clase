@@ -20,3 +20,7 @@ Consiste en un sitio web para un centro formativo de FP.
 
 ## Limitaciones
 - No usar grid
+
+## Especificaciones
+- Para tamaño de tipografía y padding usar siempre rem
+
