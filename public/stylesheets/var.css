@@ -1,0 +1,10 @@
+/* Variables */
+:root{
+  --background-color-dark: #012148;
+  --background-color-light: #6476ad;
+  --background-color-accent: #ffc836;
+  --text-color-default: #3b3b3b;
+  --text-color-light: #9b9b9b;
+
+  --text-size-hero: 2rem;
+}

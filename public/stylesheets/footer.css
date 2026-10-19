@@ -1,0 +1,26 @@
+.footer {
+    background-color: var(--background-color-light);
+    display:flex;
+    color:var(--background-color-accent);
+    gap:10%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin-top:auto;
+    text-wrap:wrap;
+    .columns {
+      display:flex;
+      flex-direction: row;
+  
+    }
+    .primeraColumna, .segundaColumna {
+      display:flex;
+      flex-direction: column;
+     padding:10px 50px;
+     gap:5px;
+     a{
+        color: white;
+     }
+    }
+  }
